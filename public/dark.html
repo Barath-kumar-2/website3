@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme = "dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .navbar-brand{
+      font-size: larger;
+      font-weight: bold;
+      color: black;
+    }
+    .nav-link{
+      color: black;
+    }
+    #h{
+      color: black;
+    }
+    #q{
+      font-size: 25px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Salem Weather Channel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id = "h"aria-current="page" href="./dark.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Dark mode (About us).html">About us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "../index.html">Light Mode </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href = "https://maps.app.goo.gl/yfhKcQ2sKHCcGKVx8">Location </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Rain info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Annual Rain</a></li>
+              <li><a class="dropdown-item" href="#">Monthly Rain</a></li>
+              <li><a class="dropdown-item" href="#">More Stats</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="https://lh5.googleusercontent.com/caV65DPU1YhSqdg_cub2QR-5V0FeE6FZOUPfqlfkO_rBdx8aYATrxNY-4J0QTGNpP6qdt3xwuLypG5XDTar7qfQ=w16383" alt="" width="200" height="150">
+    <h1 class="display-5 fw-bold text-body-emphasis">Weather Channel <h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4" id = "q">Welcome to Salem Weather Insights, your go-to source for comprehensive weather data in Salem, Tamil Nadu. Our website offers a detailed analysis of rainfall patterns over the past decade, from 2014 to the present. Stay informed with our accurate and up-to-date weather reports and historical trends.</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
